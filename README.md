@@ -1,6 +1,6 @@
 # MeroMart - Financial Accounting Software System
 
-This isA complete financial accounting solution designed for supermarkets and retailers, built with Next.js frontend and PHP/MySQL backend.
+A complete financial accounting solution designed for supermarkets and retailers, built with Next.js frontend and PHP/MySQL backend.
 
 ## Features
 
@@ -28,7 +28,7 @@ This isA complete financial accounting solution designed for supermarkets and re
 - **Server**: XAMPP (Apache + MySQL + PHP)
 - **Authentication**: Session-based with password hashing
 
-## Prerequisites
+## 📋 Prerequisites
 
 - Node.js 18+ and npm/pnpm
 - XAMPP or similar local server environment
@@ -93,11 +93,12 @@ pnpm dev
 
 The application will be available at `http://localhost:3001`
 
-## Default Login
+## 🔐 Default Login
 
 After running the migration script, you can login with:
 - **Email**: admin@meromart.com
 - **Password**: password
+- Or you can just create a new account
 
 ## Project Structure
 
@@ -135,7 +136,7 @@ MeroMart/
 - `expense_categories` - Expense categorization
 - `store_settings` - Store configuration
 
-##  API Endpoints
+## 🔧 API Endpoints
 
 ### Authentication
 - `POST /backend/login.php` - User login
@@ -204,3 +205,7 @@ This project is licensed under the MIT License.
 3. Make your changes
 4. Test thoroughly
 5. Submit a pull request
+
+## 📞 Support
+
+For support and questions, please contact the development team. 
