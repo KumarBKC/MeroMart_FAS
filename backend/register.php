@@ -35,10 +35,10 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 }
 
 // Validate role
-$validRoles = ['admin', 'cashier'];
+$validRoles = ['admin', 'cashier', 'manager'];
 if (!in_array($role, $validRoles)) {
     http_response_code(400);
-    echo json_encode(["error" => "Invalid role. Must be 'admin' or 'cashier'."]);
+    echo json_encode(["error" => "Invalid role. Must be 'admin' or 'cashier' or 'manager'."]);
     exit;
 }
 

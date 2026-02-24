@@ -29,9 +29,6 @@ pnpm-debug.log*
 .env.test.local
 .env.production.local
 
-# Vercel
-.vercel
-
 # Logs
 *.log
 error.log

@@ -1,8 +1,8 @@
 # MeroMart - Financial Accounting Software System
 
-A complete financial accounting solution designed for supermarkets and retailers, built with Next.js frontend and PHP/MySQL backend.
+This isA complete financial accounting solution designed for supermarkets and retailers, built with Next.js frontend and PHP/MySQL backend.
 
-## 🚀 Features
+## Features
 
 - **User Management**: Role-based access (admin/cashier) with secure authentication
 - **Product Management**: Inventory tracking with stock levels, barcodes, and categories
@@ -12,7 +12,7 @@ A complete financial accounting solution designed for supermarkets and retailers
 - **Reports**: Financial reporting and data export capabilities
 - **Settings**: Store configuration and user preferences
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **Framework**: Next.js 15 with App Router
@@ -28,14 +28,14 @@ A complete financial accounting solution designed for supermarkets and retailers
 - **Server**: XAMPP (Apache + MySQL + PHP)
 - **Authentication**: Session-based with password hashing
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Node.js 18+ and npm/pnpm
 - XAMPP or similar local server environment
 - MySQL 8.x
 - PHP 8.x
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
@@ -93,13 +93,13 @@ pnpm dev
 
 The application will be available at `http://localhost:3001`
 
-## 🔐 Default Login
+## Default Login
 
 After running the migration script, you can login with:
 - **Email**: admin@meromart.com
 - **Password**: password
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 MeroMart/
@@ -124,7 +124,7 @@ MeroMart/
 └── README.md
 ```
 
-## 🗄️ Database Schema
+## Database Schema
 
 ### Core Tables
 - `users` - User accounts and authentication
@@ -135,7 +135,7 @@ MeroMart/
 - `expense_categories` - Expense categorization
 - `store_settings` - Store configuration
 
-## 🔧 API Endpoints
+##  API Endpoints
 
 ### Authentication
 - `POST /backend/login.php` - User login
@@ -146,7 +146,7 @@ MeroMart/
 - `POST /backend/products.php` - Create/update product
 - `DELETE /backend/products.php?id={id}` - Delete product
 
-### Bills
+## Bills
 - `GET /backend/bills.php` - Get all bills
 - `POST /backend/bills.php` - Create new bill
 - `PUT /backend/bills.php` - Update bill
@@ -157,7 +157,7 @@ MeroMart/
 - `POST /backend/expenses.php` - Create/update expense
 - `DELETE /backend/expenses.php?id={id}` - Delete expense
 
-## 🚀 Deployment
+## Deployment
 
 ### Production Build
 ```bash
@@ -171,7 +171,7 @@ Set the following environment variables for production:
 - `NEXT_PUBLIC_API_BASE_URL` - Backend API URL
 - Database credentials in `backend/db.php`
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -193,18 +193,14 @@ Set the following environment variables for production:
 - Backend errors are logged in `backend/error.log`
 - Frontend errors appear in browser console
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License.
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
 3. Make your changes
 4. Test thoroughly
 5. Submit a pull request
-
-## 📞 Support
-
-For support and questions, please contact the development team. 
