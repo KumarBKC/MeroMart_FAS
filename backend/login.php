@@ -3,7 +3,7 @@ header("Content-Type: application/json");
 require_once "db.php";
 
 // Allow CORS for local frontend testing
-$allowedOrigins = ['http://localhost:3001', 'http://localhost'];
+$allowedOrigins = ['http://localhost:3001', 'http://localhost:8080'];
 if (isset($_SERVER['HTTP_ORIGIN']) && in_array($_SERVER['HTTP_ORIGIN'], $allowedOrigins)) {
     header("Access-Control-Allow-Origin: " . $_SERVER['HTTP_ORIGIN']);
 } else {

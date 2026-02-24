@@ -28,7 +28,7 @@ A complete financial accounting solution designed for supermarkets and retailers
 - **Server**: XAMPP (Apache + MySQL + PHP)
 - **Authentication**: Session-based with password hashing
 
-## 📋 Prerequisites
+### Prerequisites
 
 - Node.js 18+ and npm/pnpm
 - XAMPP or similar local server environment
