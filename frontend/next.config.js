@@ -4,10 +4,11 @@ const nextConfig = {
     return [
       {
         source: '/backend/:path*',
-        destination: 'http://localhost/MeroMart/backend/:path*'
+        destination: 'http://localhost:8080/MeroMart/backend/:path*'
       }
     ]
   },
+  devIndicators: false,
   // Enable debugging
   // experimental: {} // (no experimental options needed)
 }

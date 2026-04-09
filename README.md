@@ -37,13 +37,7 @@ A complete financial accounting solution designed for supermarkets and retailers
 
 ## Installation & Setup
 
-### 1. Clone the Repository
-```bash
-git clone <repository-url>
-cd MeroMart
-```
-
-### 2. Backend Setup
+### 1. Backend Setup
 
 #### Database Setup
 1. Start XAMPP and ensure Apache and MySQL are running
@@ -68,7 +62,7 @@ cd MeroMart
    $password = "";      // Your MySQL password
    ```
 
-### 3. Frontend Setup
+### 2. Frontend Setup
 
 #### Install Dependencies
 ```bash
@@ -93,7 +87,7 @@ pnpm dev
 
 The application will be available at `http://localhost:3001`
 
-## 🔐 Default Login
+## Default Login
 
 After running the migration script, you can login with:
 - **Email**: admin@meromart.com
@@ -136,7 +130,7 @@ MeroMart/
 - `expense_categories` - Expense categorization
 - `store_settings` - Store configuration
 
-## 🔧 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /backend/login.php` - User login
@@ -206,6 +200,6 @@ This project is licensed under the MIT License.
 4. Test thoroughly
 5. Submit a pull request
 
-## 📞 Support
+## Support
 
 For support and questions, please contact the development team. 
