@@ -2,10 +2,11 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { usePathname } from "next/navigation"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
-import { LayoutDashboard, FileText, Receipt, TrendingUp, Settings, Menu, X, Store, Package } from "lucide-react"
+import { LayoutDashboard, FileText, Receipt, TrendingUp, Settings, Menu, X, Package } from "lucide-react"
 import { getCurrentUser, logout } from "@/lib/auth"
 import { useRouter } from "next/navigation"
 
@@ -53,10 +54,16 @@ export function Sidebar() {
       >
         <div className="flex flex-col h-full">
           {/* Header */}
-          <div className="flex items-center px-6 py-4 border-b">
-            <Store className="h-8 w-8 text-primary mr-3" />
+          <div className="flex items-center px-4 py-4 border-b">
+            <Image
+              src="/images/logo.jpg"
+              alt="MeroMart Logo"
+              width={48}
+              height={48}
+              className="rounded-md mr-3 object-contain"
+            />
             <div>
-              <h1 className="text-lg font-semibold">Gumi Super Mart</h1>
+              <h1 className="text-lg font-semibold">MeroMart</h1>
               <p className="text-sm text-muted-foreground">Accounting System</p>
             </div>
           </div>

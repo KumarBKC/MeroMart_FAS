@@ -10,7 +10,7 @@ import { Label } from "@/components/ui/label"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Alert, AlertDescription } from "@/components/ui/alert"
 import { authenticateUser, setCurrentUser } from "@/lib/auth"
-import { Store, Calculator } from "lucide-react"
+import Image from "next/image"
 
 export default function LoginPage() {
   const [email, setEmail] = useState("")
@@ -55,10 +55,13 @@ export default function LoginPage() {
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
           <div className="flex justify-center mb-4">
-            <div className="flex items-center space-x-2">
-              <Store className="h-8 w-8 text-primary" />
-              <Calculator className="h-8 w-8 text-primary" />
-            </div>
+            <Image
+              src="/images/logo.jpg"
+              alt="MeroMart Logo"
+              width={80}
+              height={80}
+              className="rounded-xl object-contain"
+            />
           </div>
           <CardTitle className="text-2xl font-bold">MeroMart</CardTitle>
           <CardDescription>Sign in to manage your store's finances</CardDescription>
